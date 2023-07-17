@@ -84,7 +84,7 @@ fn each_line_has_the_mandatory_bunyan_fields() {
         assert!(record.get("msg").is_some());
         assert!(record.get("v").is_some());
         assert!(record.get("pid").is_some());
-        assert!(record.get("hostname").is_some());
+        assert!(record.get("pod_name").is_some());
         assert!(record.get("custom_field").is_some());
     }
 }

@@ -19,7 +19,7 @@ use tracing_subscriber::Layer;
 const BUNYAN_VERSION: &str = "v";
 const LEVEL: &str = "level";
 const NAME: &str = "name";
-const HOSTNAME: &str = "hostname";
+const HOSTNAME: &str = "pod_name";
 const PID: &str = "pid";
 const TIME: &str = "time";
 const MESSAGE: &str = "msg";
